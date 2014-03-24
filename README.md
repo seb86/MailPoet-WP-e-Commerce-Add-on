@@ -3,7 +3,7 @@
 Contributors: wysija, sebd86
 Tags: mailpoet, wysija, wp-ecommerce, sebs studio, extension, add-on
 Requires at least: 3.5.1
-Tested up to: 3.8
+Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -72,6 +72,10 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 2. WP e-Commerce MailPoet Settings.
 
 ## Changelog
+
+__1.0.1 - 24/03/2014__
+
+* CORRECTED - If function 'mailpoet_lists' is already defined, then don't load again.
 
 __1.0.0 - 06/01/2014__
 
