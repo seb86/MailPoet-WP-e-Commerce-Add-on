@@ -3,12 +3,12 @@
 Plugin Name: MailPoet WP e-Commerce Add-on
 Plugin URI: http://www.mailpoet.com/
 Description: Subscribe your customers to MailPoet newsletters.
-Version: 1.0.1
+Version: 1.0.2
 Author: Sebs Studio
 Author Email: sebastien@sebs-studio.com
 Author URI: http://www.sebs-studio.com/
-Requires at least: 3.3
-Tested up to: 3.8
+Requires at least: 3.7.1
+Tested up to: 3.8.1
 
 License:
 
@@ -82,7 +82,7 @@ class MailPoet_WP_E_Commerce_Add_on {
 
 	// Adds the mailpoet menu link under WP e-Commerce.
 	public function add_mailpoet_wp_ecommerce_settings_menu(){
-		add_submenu_page('edit.php?post_type=wpsc-product', __('MailPoet WP e-Commerce Add-On', 'mailpoet_wp_ecommerce'), __('MailPoet', 'mailpoet_wp_ecommerce'), 'manage_options', 'mailpoet', array(&$this, 'add_wp_ecommerce_mailpoet_settings_page'));
+		add_submenu_page('edit.php?post_type=wpsc-product', __('MailPoet WP e-Commerce Add-On', 'mailpoet_wp_ecommerce'), 'MailPoet', 'manage_options', 'mailpoet', array(&$this, 'add_wp_ecommerce_mailpoet_settings_page'));
 	}
 
 	// Displays the settings page for MailPoet subscribe on checkout.
@@ -157,7 +157,7 @@ class MailPoet_WP_E_Commerce_Add_on {
 		<br>
 
 		<?php
-		$mailpoet_list = $this->mailpoet_lists();
+		$mailpoet_list = mailpoet_lists();
 		include_once(dirname(__FILE__).'/include/settings-newsletters.php');
 		do_action('wp_ecommerce_mailpoet_list_newsletters', $mailpoet_list);
 		?>
@@ -213,17 +213,6 @@ class MailPoet_WP_E_Commerce_Add_on {
 		//echo mysql_error();
 
 		update_option('mailpoet_wp_ecommerce_active', 'no');
-	}
-
-	// Get all mailpoet lists.
-	if( ! function_exists( 'mailpoet_lists' ) ) {
-		public function mailpoet_lists(){
-			// This will return an array of results with the name and list_id of each mailing list
-			$model_list = WYSIJA::get('list','model');
-			$mailpoet_lists = $model_list->get(array('name','list_id'), array('is_enabled' => 1));
-
-			return $mailpoet_lists;
-		}
 	}
 
 	/**
@@ -283,6 +272,17 @@ class MailPoet_WP_E_Commerce_Add_on {
 
 } // end class
 $mailpoet_wp_ecommerce_add_on = new MailPoet_WP_E_Commerce_Add_on();
+
+// Get all mailpoet lists.
+if( ! function_exists( 'mailpoet_lists' ) ) {
+	function mailpoet_lists(){
+		// This will return an array of results with the name and list_id of each mailing list
+		$model_list = WYSIJA::get('list','model');
+		$mailpoet_lists = $model_list->get(array('name','list_id'), array('is_enabled' => 1));
+
+		return $mailpoet_lists;
+	}
+}
 
 }
 else{

@@ -1,67 +1,73 @@
+#
+# Translators:
+# TheHassan, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: MailPoet WP e-Commerce Add-On\n"
-"POT-Creation-Date: 2014-03-24 18:12+0100\n"
-"PO-Revision-Date: 2014-03-24 18:13+0100\n"
+"Project-Id-Version: MailPoet WP e-Commerce Add-on\n"
+"POT-Creation-Date: 2014-03-24 18:14+0100\n"
+"PO-Revision-Date: 2014-03-24 18:14+0100\n"
 "Last-Translator: Sebastien <sebastien@sebs-studio.com>\n"
-"Language-Team: Sebs Studio <sebastien@sebs-studio.com>\n"
-"Language: en\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/wysija/language/"
+"ar/)\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: include/settings-newsletters.php:19
 msgid "Enabled"
-msgstr "Enabled"
+msgstr "تفعيل"
 
 #: include/settings-newsletters.php:20
 msgid "Newsletters"
-msgstr "Newsletters"
+msgstr "النشرات الإخبارية"
 
 #: mailpoet-wp-ecommerce-addon.php:64 mailpoet-wp-ecommerce-addon.php:152
 msgid "Yes, add me to your mailing list"
-msgstr "Yes, add me to your mailing list"
+msgstr "نعم، أضفني على قائمتك البريدية"
 
 #: mailpoet-wp-ecommerce-addon.php:85 mailpoet-wp-ecommerce-addon.php:129
 msgid "MailPoet WP e-Commerce Add-On"
-msgstr "MailPoet WP e-Commerce Add-On"
+msgstr "إضافة MailPoet WP e-Commerce"
 
 #: mailpoet-wp-ecommerce-addon.php:120
 msgid "Settings saved"
-msgstr "Settings saved"
+msgstr "تم حفظ الاعدادات"
 
 #: mailpoet-wp-ecommerce-addon.php:137
 msgid "Enable subscribe on checkout"
-msgstr "Enable subscribe on checkout"
+msgstr "تفعيل الاشتراط عند الخروج"
 
 #: mailpoet-wp-ecommerce-addon.php:140
 msgid "Yes"
-msgstr "Yes"
+msgstr "نعم"
 
 #: mailpoet-wp-ecommerce-addon.php:141
 msgid "No"
-msgstr "No"
+msgstr "لا"
 
 #: mailpoet-wp-ecommerce-addon.php:143
 msgid "Add a subscribe checkbox to your checkout page?"
-msgstr "Add a subscribe checkbox to your checkout page?"
+msgstr "إضافة مربع اشتراط عند صفحة الخروج الخاصة بك؟"
 
 #: mailpoet-wp-ecommerce-addon.php:149
 msgid "Checkout label"
-msgstr "Checkout label"
+msgstr "وسم الخروج"
 
 #: mailpoet-wp-ecommerce-addon.php:166
 msgid "Save Settings"
-msgstr "Save Settings"
+msgstr "حفظ الاعدادات"
 
 #: mailpoet-wp-ecommerce-addon.php:190
 msgid "Newsletter"
-msgstr "Newsletter"
+msgstr "النشرة الإخبارية"
 
 #: mailpoet-wp-ecommerce-addon.php:295
 #, php-format
@@ -69,5 +75,8 @@ msgid ""
 "MailPoet WP e-Commerce Add-on requires WP e-Commerce. Please install and "
 "activate <a href=\"%s\">WP e-Commerce</a> first."
 msgstr ""
-"MailPoet WP e-Commerce Add-on requires WP e-Commerce. Please install and "
-"activate <a href=\"%s\">WP e-Commerce</a> first."
+"إضافة MailPoet WP e-Commerce تتطلب WP e-Commerce. الرجاء تنصيب وتنشيط <a "
+"href=\"%s\">WP e-Commerce</a> أولاً."
+
+#~ msgid "MailPoet"
+#~ msgstr "MailPoet"

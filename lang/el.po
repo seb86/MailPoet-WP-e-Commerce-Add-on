@@ -1,0 +1,85 @@
+#
+# Translators:
+# prokopino <saveandwingr@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: MailPoet WP e-Commerce Add-on\n"
+"POT-Creation-Date: 2014-03-24 18:12+0100\n"
+"PO-Revision-Date: 2014-03-24 18:13+0100\n"
+"Last-Translator: Sebastien <sebastien@sebs-studio.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/wysija/language/"
+"el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/settings-newsletters.php:19
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: include/settings-newsletters.php:20
+msgid "Newsletters"
+msgstr "Ενημερωτικά δελτία"
+
+#: mailpoet-wp-ecommerce-addon.php:64 mailpoet-wp-ecommerce-addon.php:152
+msgid "Yes, add me to your mailing list"
+msgstr "Ναι, προσθέστε με στη λίστα αποδεκτών των ενημερωτικών σας δελτίων"
+
+#: mailpoet-wp-ecommerce-addon.php:85 mailpoet-wp-ecommerce-addon.php:129
+msgid "MailPoet WP e-Commerce Add-On"
+msgstr "Πρόσθετο άρθρωμα του MailPoet για το WP e-Commerce "
+
+#: mailpoet-wp-ecommerce-addon.php:120
+msgid "Settings saved"
+msgstr "Οι ρυθμίσεις σας αποθηκεύθηκαν"
+
+#: mailpoet-wp-ecommerce-addon.php:137
+msgid "Enable subscribe on checkout"
+msgstr "Ενεργοποίηση της εγγραφής συνδρομής κατά την ολοκλήρωση αγοράς"
+
+#: mailpoet-wp-ecommerce-addon.php:140
+msgid "Yes"
+msgstr "Ναι"
+
+#: mailpoet-wp-ecommerce-addon.php:141
+msgid "No"
+msgstr "Οχι"
+
+#: mailpoet-wp-ecommerce-addon.php:143
+msgid "Add a subscribe checkbox to your checkout page?"
+msgstr ""
+"Να προστεθεί ένα πλαίσιο για την ενεργοποίηση της εγγραφής συνδρομής στη "
+"σελίδα ολοκλήρωσης αγοράς;"
+
+#: mailpoet-wp-ecommerce-addon.php:149
+msgid "Checkout label"
+msgstr "Ετικέτα ολοκλήρωσης"
+
+#: mailpoet-wp-ecommerce-addon.php:166
+msgid "Save Settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: mailpoet-wp-ecommerce-addon.php:190
+msgid "Newsletter"
+msgstr "Ενημερωτικό δελτίο"
+
+#: mailpoet-wp-ecommerce-addon.php:295
+#, php-format
+msgid ""
+"MailPoet WP e-Commerce Add-on requires WP e-Commerce. Please install and "
+"activate <a href=\"%s\">WP e-Commerce</a> first."
+msgstr ""
+"Το πρόσθετο του MailPoet για το πρόσθετο WP e-Commerce απαιτεί όπως είναι "
+"λογικό να έχετε εγκατεστημένο το σχετικό πρόσθετο, το WP e-Commerce. Για να "
+"μπορέσετε να συνεχίσετε, σας παρακαλούμε, εγκαταστήστε το και ενεργοποιήστε "
+"το, <a href=\"%s\">WP e-Commerce</a>."
+
+#~ msgid "MailPoet"
+#~ msgstr "MailPoet"

@@ -2,7 +2,7 @@
 
 Contributors: wysija, sebd86
 Tags: mailpoet, wysija, wp-ecommerce, sebs studio, extension, add-on
-Requires at least: 3.5.1
+Requires at least: 3.7.1
 Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
@@ -72,6 +72,14 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 2. WP e-Commerce MailPoet Settings.
 
 ## Changelog
+
+__1.0.2 - 24/03/2014__
+
+* ADDED - More languages, Arabic, Greek, Portuguese (Brazil), Russian
+* ADDED - POT file
+* CORRECTED - Default language from en_GB to en_US
+* CORRECTED - if statment from last version change. Moved the function out of the plugin class for it to work again.
+* REMOVED - Translation of the brand name 'MailPoet' only.
 
 __1.0.1 - 24/03/2014__
 
