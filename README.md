@@ -2,8 +2,8 @@
 
 Contributors: wysija, sebd86
 Tags: mailpoet, wysija, wp-ecommerce, sebs studio, extension, add-on
-Requires at least: 3.5.1
-Tested up to: 3.8
+Requires at least: 3.7.1
+Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This simple plugin adds a checkbox on checkout page for your customers to subscribe to your MailPoet newsletters.
 
 ## Localization
-* English (default) - always included. *.po file (default.po) in language folder for translations.
+* English (US)[Default] - always included. mailpoet_wp_ecommerce_add_on.pot file in language folder for translations.
 
 If you would like to do a translation for the plugin, you can do so via Transifex.  (https://www.transifex.com/projects/p/mailpoet-wp-e-commerce-add-on/)
 
@@ -72,6 +72,18 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 2. WP e-Commerce MailPoet Settings.
 
 ## Changelog
+
+__1.0.2 - 24/03/2014__
+
+* ADDED - More languages, Arabic, Greek, Portuguese (Brazil), Russian
+* ADDED - POT file
+* CORRECTED - Default language from en_GB to en_US
+* CORRECTED - if statment from last version change. Moved the function out of the plugin class for it to work again.
+* REMOVED - Translation of the brand name 'MailPoet' only.
+
+__1.0.1 - 24/03/2014__
+
+* CORRECTED - If function 'mailpoet_lists' is already defined, then don't load again.
 
 __1.0.0 - 06/01/2014__
 
